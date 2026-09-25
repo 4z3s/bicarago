@@ -10,11 +10,11 @@
 <header class="topbar"><a class="brand" href="#home"><span class="logo">B</span><span>BicaraGo<small>Bicara • Dengar • Pahami</small></span></a><button id="themeBtn" class="icon" aria-label="Ganti tema">◐</button></header>
 <main>
 <section id="home" class="page active">
-<div class="hero"><span class="eyebrow">INDONESIA ⇄ ENGLISH</span><h1>Bicara lebih mudah.</h1><p>Ketik kalimat Indonesia atau English. BicaraGo menampilkan terjemahan, cara baca English yang mudah, dan suara.</p></div>
+<div class="hero"><span class="eyebrow">INDONESIA ⇄ ENGLISH</span><h1>Bicara lebih mudah.</h1><p>Ketik atau bicara dalam Bahasa Indonesia atau English. BicaraGo membantu menerjemahkan, menampilkan cara baca English yang mudah, lalu membacakan hasilnya.</p></div>
 <div class="card translate-card">
 <div class="language-row"><button class="lang active" data-source="id">🇮🇩 Indonesia</button><button id="swapBtn" class="swap" aria-label="Tukar bahasa">⇄</button><button class="lang" data-source="en">🇬🇧 English</button></div>
-<label for="sourceText">Apa yang ingin Anda katakan?</label>
-<div class="input-wrap"><textarea id="sourceText" maxlength="500" rows="4" placeholder="Contoh: Saya ingin pergi ke bandara."></textarea><button id="micBtn" class="mic" aria-label="Input suara">🎙</button></div>
+<label for="sourceText">Apa yang ingin Anda katakan?</label><div class="voice-mode"><button id="liveVoiceBtn" class="voice-card"><b>🎙️ Bicara Langsung</b><small>Ucapkan kalimat, otomatis menjadi teks dan diterjemahkan.</small></button><button id="recordVoiceBtn" class="voice-card"><b>⏺ Rekam Suara</b><small>Rekam dulu, lalu gunakan hasil ucapan untuk diterjemahkan.</small></button></div><div id="voiceStatus" class="voice-status hidden" aria-live="polite"><span class="pulse"></span><div><strong id="voiceStatusTitle">Mendengarkan…</strong><small id="voiceStatusText">Silakan bicara dengan jelas.</small></div><button id="stopVoiceBtn">Selesai</button></div>
+<div class="input-wrap"><textarea id="sourceText" maxlength="500" rows="4" placeholder="Contoh: Saya ingin pergi ke bandara."></textarea><button id="micBtn" class="mic" aria-label="Bicara langsung" title="Bicara langsung">🎙</button></div>
 <div class="actions"><button id="translateBtn" class="primary">Terjemahkan</button><button id="clearBtn" class="secondary">Bersihkan</button></div>
 <div id="result" class="result hidden" aria-live="polite">
 <div class="result-head"><span id="targetLabel">English</span><span id="matchBadge" class="badge"></span></div>
