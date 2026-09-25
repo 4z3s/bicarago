@@ -1,0 +1,12 @@
+/.env
+/vendor/
+/writable/cache/*
+/writable/logs/*
+/writable/session/*
+/writable/uploads/*
+!/writable/**/.gitkeep
+/node_modules/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
