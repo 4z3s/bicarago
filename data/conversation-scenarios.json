@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "status": "draft",
+  "scenarios": [
+    {
+      "key": "meeting",
+      "title": "Bertemu & Perkenalan",
+      "category": "Perkenalan",
+      "starter_keys": [
+        "good-morning",
+        "what-is-your-name",
+        "where-are-you-from"
+      ]
+    },
+    {
+      "key": "transport",
+      "title": "Transportasi & Tujuan",
+      "category": "Transportasi",
+      "starter_keys": [
+        "where-would-you-like-to-go",
+        "go-to-airport",
+        "wait-a-moment"
+      ]
+    },
+    {
+      "key": "shopping",
+      "title": "Belanja & Harga",
+      "category": "Belanja",
+      "starter_keys": [
+        "how-much-is-it"
+      ]
+    },
+    {
+      "key": "emergency",
+      "title": "Bantuan",
+      "category": "Darurat",
+      "starter_keys": [
+        "need-help"
+      ]
+    }
+  ]
+}

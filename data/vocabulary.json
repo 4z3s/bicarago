@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "status": "draft",
+  "items": [
+    {
+      "category": "Sapaan",
+      "word": "hello",
+      "pronunciation": "he-lou",
+      "meaning": "halo",
+      "example_en": "Hello, how are you?",
+      "example_pronunciation": "He-lou, hau ar yu?",
+      "example_id": "Halo, apa kabar?"
+    },
+    {
+      "category": "Transportasi",
+      "word": "airport",
+      "pronunciation": "er-port",
+      "meaning": "bandara",
+      "example_en": "I want to go to the airport.",
+      "example_pronunciation": "Ai wont tu gou tu dhi er-port.",
+      "example_id": "Saya ingin pergi ke bandara."
+    },
+    {
+      "category": "Arah & Lokasi",
+      "word": "left",
+      "pronunciation": "left",
+      "meaning": "kiri",
+      "example_en": "Turn left here.",
+      "example_pronunciation": "Tern left hir.",
+      "example_id": "Belok kiri di sini."
+    },
+    {
+      "category": "Arah & Lokasi",
+      "word": "right",
+      "pronunciation": "rait",
+      "meaning": "kanan",
+      "example_en": "Turn right here.",
+      "example_pronunciation": "Tern rait hir.",
+      "example_id": "Belok kanan di sini."
+    },
+    {
+      "category": "Hotel",
+      "word": "reservation",
+      "pronunciation": "re-zer-vei-shen",
+      "meaning": "reservasi",
+      "example_en": "Do you have a reservation?",
+      "example_pronunciation": "Du yu hev e re-zer-vei-shen?",
+      "example_id": "Apakah Anda punya reservasi?"
+    },
+    {
+      "category": "Belanja",
+      "word": "price",
+      "pronunciation": "prais",
+      "meaning": "harga",
+      "example_en": "What is the price?",
+      "example_pronunciation": "Wat is dhe prais?",
+      "example_id": "Berapa harganya?"
+    },
+    {
+      "category": "Sehari-hari",
+      "word": "wait",
+      "pronunciation": "weit",
+      "meaning": "tunggu",
+      "example_en": "Please wait a moment.",
+      "example_pronunciation": "Plis weit e mou-ment.",
+      "example_id": "Tunggu sebentar."
+    },
+    {
+      "category": "Darurat",
+      "word": "help",
+      "pronunciation": "help",
+      "meaning": "bantuan",
+      "example_en": "Do you need help?",
+      "example_pronunciation": "Du yu niid help?",
+      "example_id": "Apakah Anda butuh bantuan?"
+    }
+  ]
+}

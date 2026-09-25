@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "status": "draft",
+  "scenarios": [
+    {
+      "key": "perkenalan-dasar",
+      "title": "Perkenalan Dasar",
+      "category": "Perkenalan",
+      "steps": [
+        {
+          "id": "Selamat pagi.",
+          "en": "Good morning.",
+          "pronunciation": "Gud mor-ning.",
+          "speaker": "user"
+        },
+        {
+          "id": "Siapa nama Anda?",
+          "en": "What is your name?",
+          "pronunciation": "Wat is yor neim?",
+          "speaker": "user"
+        },
+        {
+          "id": "Nama saya ...",
+          "en": "My name is ...",
+          "pronunciation": "Mai neim is ...",
+          "speaker": "partner"
+        },
+        {
+          "id": "Anda berasal dari mana?",
+          "en": "Where are you from?",
+          "pronunciation": "Wer ar yu from?",
+          "speaker": "user"
+        }
+      ]
+    },
+    {
+      "key": "transportasi-dasar",
+      "title": "Transportasi Dasar",
+      "category": "Transportasi",
+      "steps": [
+        {
+          "id": "Anda ingin pergi ke mana?",
+          "en": "Where would you like to go?",
+          "pronunciation": "Wer wud yu laik tu gou?",
+          "speaker": "user"
+        },
+        {
+          "id": "Saya ingin pergi ke bandara.",
+          "en": "I want to go to the airport.",
+          "pronunciation": "Ai wont tu gou tu dhi er-port.",
+          "speaker": "partner"
+        },
+        {
+          "id": "Silakan masuk.",
+          "en": "Please come in.",
+          "pronunciation": "Plis kam in.",
+          "speaker": "user"
+        },
+        {
+          "id": "Tunggu sebentar.",
+          "en": "Please wait a moment.",
+          "pronunciation": "Plis weit e mou-ment.",
+          "speaker": "user"
+        }
+      ]
+    }
+  ]
+}
