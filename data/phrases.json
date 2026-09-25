@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "note": "Seed awal untuk prototype; linguistic review wajib sebelum status published.",
+  "phrases": [
+    {"id":"greeting-001","category":"Sapaan","id_text":"Selamat pagi.","en_text":"Good morning.","easy_pronunciation":"Gud mor-ning.","status":"draft"},
+    {"id":"intro-001","category":"Perkenalan","id_text":"Siapa nama Anda?","en_text":"What is your name?","easy_pronunciation":"Wat is yor neim?","status":"draft"},
+    {"id":"intro-002","category":"Perkenalan","id_text":"Anda berasal dari mana?","en_text":"Where are you from?","easy_pronunciation":"Wer ar yu from?","status":"draft"},
+    {"id":"transport-001","category":"Transportasi","id_text":"Anda ingin pergi ke mana?","en_text":"Where would you like to go?","easy_pronunciation":"Wer wud yu laik tu gou?","status":"draft"},
+    {"id":"transport-002","category":"Transportasi","id_text":"Saya ingin pergi ke bandara.","en_text":"I want to go to the airport.","easy_pronunciation":"Ai wont tu gou tu dhi er-port.","status":"draft"},
+    {"id":"general-001","category":"Sehari-hari","id_text":"Tunggu sebentar.","en_text":"Please wait a moment.","easy_pronunciation":"Plis weit e mou-ment.","status":"draft"},
+    {"id":"thanks-001","category":"Sapaan","id_text":"Terima kasih.","en_text":"Thank you.","easy_pronunciation":"Thengk yu.","status":"draft"}
+  ]
+}
