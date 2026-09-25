@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "languages": [
+    {"code":"id","name":"Bahasa Indonesia","native_name":"Bahasa Indonesia","enabled":true},
+    {"code":"en","name":"English","native_name":"English","enabled":true}
+  ]
+}
