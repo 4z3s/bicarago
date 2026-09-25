@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="id" data-theme="light">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0f766e"><meta name="description" content="BicaraGo — Bahasa Indonesia dan English dengan cara baca mudah.">
+<title>BicaraGo — Bicara • Dengar • Pahami</title>
+<link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="#home"><span class="logo">B</span><span>BicaraGo<small>Bicara • Dengar • Pahami</small></span></a><button id="themeBtn" class="icon" aria-label="Ganti tema">◐</button></header>
+<main>
+<section id="home" class="page active">
+<div class="hero"><span class="eyebrow">INDONESIA ⇄ ENGLISH</span><h1>Bicara lebih mudah.</h1><p>Ketik kalimat Indonesia atau English. BicaraGo menampilkan terjemahan, cara baca English yang mudah, dan suara.</p></div>
+<div class="card translate-card">
+<div class="language-row"><button class="lang active" data-source="id">🇮🇩 Indonesia</button><button id="swapBtn" class="swap" aria-label="Tukar bahasa">⇄</button><button class="lang" data-source="en">🇬🇧 English</button></div>
+<label for="sourceText">Apa yang ingin Anda katakan?</label>
+<div class="input-wrap"><textarea id="sourceText" maxlength="500" rows="4" placeholder="Contoh: Saya ingin pergi ke bandara."></textarea><button id="micBtn" class="mic" aria-label="Input suara">🎙</button></div>
+<div class="actions"><button id="translateBtn" class="primary">Terjemahkan</button><button id="clearBtn" class="secondary">Bersihkan</button></div>
+<div id="result" class="result hidden" aria-live="polite">
+<div class="result-head"><span id="targetLabel">English</span><span id="matchBadge" class="badge"></span></div>
+<h2 id="translatedText"></h2>
+<div id="pronBox" class="pron"><small>🔊 CARA BACA MUDAH</small><strong id="pronunciation"></strong></div>
+<div class="result-actions"><button id="speakBtn">🔊 Dengarkan</button><button id="copyBtn">▣ Salin</button><button id="favoriteBtn">☆ Simpan</button></div>
+</div></div>
+<h2 class="section-title">Frasa Cepat</h2><div id="categoryChips" class="chips"></div><div id="phraseGrid" class="phrase-grid"></div>
+</section>
+
+<section id="conversation" class="page"><div class="page-head"><h1>Percakapan</h1><p>Kalimat siap pakai untuk situasi sehari-hari.</p></div><div id="conversationList" class="list"></div></section>
+<section id="learn" class="page"><div class="page-head"><h1>Belajar</h1><p>Mulai dari frasa yang benar-benar sering digunakan.</p></div><div class="learning-card"><span>Level 1</span><h2>English untuk percakapan dasar</h2><p>Pelajari arti, cara baca, lalu dengarkan pengucapannya.</p><div class="progress"><i></i></div><button id="practiceBtn" class="primary">Mulai latihan</button></div><div id="practice" class="card hidden"></div></section>
+<section id="favorites" class="page"><div class="page-head"><h1>Favorit</h1><p>Kalimat yang Anda simpan tersedia cepat di perangkat ini.</p></div><div id="favoriteList" class="list"></div></section>
+<section id="profile" class="page"><div class="page-head"><h1>Saya</h1><p>Prototype BicaraGo V0.1.0</p></div><div class="card"><h2>Mode tamu</h2><p>Terjemahan lokal, audio perangkat, frasa, dan favorit dapat dicoba tanpa akun.</p><p class="muted">Login, sinkronisasi cloud, provider translation, dan progres server akan ditambahkan setelah blueprint/prototype dibekukan dan dimigrasikan ke CI4.</p></div></section>
+</main>
+<nav class="bottom-nav" aria-label="Navigasi utama"><a href="#home" class="active">⌂<span>Beranda</span></a><a href="#conversation">◌<span>Percakapan</span></a><a href="#learn">▤<span>Belajar</span></a><a href="#favorites">☆<span>Favorit</span></a><a href="#profile">○<span>Saya</span></a></nav>
+<div id="toast" class="toast" role="status"></div>
+<script src="assets/js/app.js"></script>
+</body></html>
