@@ -25,7 +25,24 @@
 <h2 class="section-title">Frasa Cepat</h2><div id="categoryChips" class="chips"></div><div id="phraseGrid" class="phrase-grid"></div>
 </section>
 
-<section id="conversation" class="page"><div class="page-head"><h1>Percakapan</h1><p>Kalimat siap pakai untuk situasi sehari-hari.</p></div><div id="conversationList" class="list"></div></section>
+<section id="conversation" class="page">
+<div class="page-head"><h1>Percakapan Dua Arah</h1><p>Gunakan satu perangkat secara bergantian. Pilih siapa yang sedang berbicara.</p></div>
+<div class="conversation-shell">
+<div class="speaker-switch">
+<button id="speakIdBtn" class="speaker active"><span>🇮🇩</span><b>Saya bicara Indonesia</b><small>Hasil menjadi English</small></button>
+<button id="speakEnBtn" class="speaker"><span>🇬🇧</span><b>Tamu bicara English</b><small>Hasil menjadi Indonesia</small></button>
+</div>
+<div id="conversationStatus" class="conversation-status"><span class="pulse"></span><div><strong>Siap berbicara</strong><small>Tekan tombol mikrofon besar di bawah.</small></div></div>
+<button id="conversationMic" class="big-mic" aria-label="Mulai percakapan suara">🎙️<span>Mulai Bicara</span></button>
+<div class="conversation-panels">
+<article class="talk-panel source-panel"><small id="convSourceLabel">🇮🇩 Bahasa Indonesia</small><p id="convSourceText">Ucapan Anda akan tampil di sini.</p></article>
+<article class="talk-panel target-panel"><small id="convTargetLabel">🇬🇧 English</small><h2 id="convTargetText">Hasil terjemahan akan tampil di sini.</h2><div id="convPronWrap" class="conv-pron"><span>Cara baca</span><strong id="convPron">—</strong></div><div class="result-actions"><button id="convListen">🔊 Dengarkan</button><button id="convCopy">▣ Salin</button></div></article>
+</div>
+<div class="conversation-options"><label><input id="autoSpeak" type="checkbox" checked> Otomatis bacakan hasil</label><button id="clearConversation" class="secondary">Hapus percakapan</button></div>
+<div id="conversationHistory" class="conversation-history"></div>
+</div>
+<h2 class="section-title">Kalimat Siap Pakai</h2><div id="conversationList" class="list"></div>
+</section>
 <section id="learn" class="page"><div class="page-head"><h1>Belajar</h1><p>Mulai dari frasa yang benar-benar sering digunakan.</p></div><div class="learning-card"><span>Level 1</span><h2>English untuk percakapan dasar</h2><p>Pelajari arti, cara baca, lalu dengarkan pengucapannya.</p><div class="progress"><i></i></div><button id="practiceBtn" class="primary">Mulai latihan</button></div><div id="practice" class="card hidden"></div></section>
 <section id="favorites" class="page"><div class="page-head"><h1>Favorit</h1><p>Kalimat yang Anda simpan tersedia cepat di perangkat ini.</p></div><div id="favoriteList" class="list"></div></section>
 <section id="profile" class="page"><div class="page-head"><h1>Saya</h1><p>Prototype BicaraGo V0.1.0</p></div><div class="card"><h2>Mode tamu</h2><p>Terjemahan lokal, audio perangkat, frasa, dan favorit dapat dicoba tanpa akun.</p><p class="muted">Login, sinkronisasi cloud, provider translation, dan progres server akan ditambahkan setelah blueprint/prototype dibekukan dan dimigrasikan ke CI4.</p></div></section>
